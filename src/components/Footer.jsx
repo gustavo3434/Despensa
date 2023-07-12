@@ -4,7 +4,7 @@ import face from './images/facebook.svg'
 
 const Footer = () => {
     return (
-        <div style={{marginTop: 120, backgroundColor: '#e0dfdf',height:250}}>
+        <div style={{marginTop: 120, backgroundColor: '#e0dfdf',height:300}}>
             <div className="container text-dark">
                 <div className="row">
                     <div className="col mt-3">
