@@ -1,0 +1,21 @@
+#colum {
+    width: 25%;
+    height: 400;
+}
+
+@media screen and (max-width: 1080px) {
+    #colum {
+        width: 33.33%;
+        
+    }
+ }
+ @media screen and (max-width: 701px) {
+    #colum {
+        width: 50%;
+    }
+ }
+ @media screen and (max-width: 400px) {
+    #colum {
+        width: 100%;
+    }
+ }

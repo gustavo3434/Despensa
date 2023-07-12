@@ -1,0 +1,34 @@
+
+.lbl-menu{
+    margin-top: 20%;
+    width: 40px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.lbl-menu #spn1,#spn2,#spn3{
+    position: absolute;
+    content: '';
+    background:#ea0000;
+    width: 40px;
+    height: 3px;
+    border-radius: 5px;
+    
+}
+
+#spn2{
+    top: 12px;
+}
+#spn3{
+    top: 23px;
+    background-color: #ea0000;
+    font-weight: bold;
+}
+
+.nav-item {
+    font-weight: bold;
+    width: "100%";
+}
+.nav-item :hover {
+    color: #0404b3;
+}

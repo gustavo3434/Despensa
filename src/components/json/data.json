@@ -1,0 +1,67 @@
+[
+    {
+      "idItem": 1,
+      "nombre": "Arroz parboil Gallo oro en bolsa 1 kg",
+      "categoria": "Almacén",
+      "precio": 521.00,
+      "img": "https://carrefourar.vtexassets.com/arquivos/ids/318039-240-240?v=1775568674&width=240&height=240&aspect=true",
+      "descripcion": "Arroz blanco de grano largo"
+    },
+    {
+      "idItem": 2,
+      "nombre": "Fideos mostacholes rayados matarazzo",
+      "categoria": "Almacén",
+      "precio": 234.99,
+      "img": "https://carrefourar.vtexassets.com/arquivos/ids/175369-240-240?v=1775575986&width=240&height=240&aspect=true",
+      "descripcion": "Fideos de trigo"
+    },
+    {
+      "idItem": 3,
+      "nombre": "Aceite de oliva Cañuelas clásico",
+      "categoria": "Almacén",
+      "precio": 1320.00,
+      "img": "https://carrefourar.vtexassets.com/arquivos/ids/167031-240-240?v=1775573037&width=240&height=240&aspect=true",
+      "descripcion": "Aceite de oliva extra virgen"
+    },
+    {
+      "idItem": 4,
+      "nombre": "Galletitas dulces Oreo rellenas con crema",
+      "categoria": "Almacén",
+      "precio": 855.00,
+      "img": "https://carrefourar.vtexassets.com/arquivos/ids/314563-240-240?v=1775574431&width=240&height=240&aspect=true",
+      "descripcion": "Galletas dulces"
+    },
+    {
+      "idItem": 5,
+      "nombre": "Leche parcialmente descremada La Serenisima 1lt",
+      "categoria": "Lácteos",
+      "precio": 451,
+      "img": "https://carrefourar.vtexassets.com/arquivos/ids/269588-240-240?v=1775576630&width=240&height=240&aspect=true",
+      "descripcion": "Leche entera"
+    },
+    {
+      "idItem": 6,
+      "nombre": "Queso fundido finlandia light pote 290g",
+      "categoria": "Lácteos",
+      "precio": 545.00,
+      "img": "https://carrefourar.vtexassets.com/arquivos/ids/275899-240-240?v=1775577431&width=240&height=240&aspect=true",
+      "descripcion": "Queso cheddar rallado"
+    },
+    {
+      "idItem": 7,
+      "nombre": "Yogur bebible la Serenisima sabor frutilla 900g",
+      "categoria": "Lácteos",
+      "precio": 476.00,
+      "img": "https://carrefourar.vtexassets.com/arquivos/ids/309405-240-240?v=1775574839&width=240&height=240&aspect=true",
+      "descripcion": "Yogur natural"
+    },
+    {
+      "idItem": 8,
+      "nombre": "Pan de mesa Veneziana blanco 600g",
+      "categoria": "Panadería",
+      "precio": 610.00,
+      "img": "https://carrefourar.vtexassets.com/arquivos/ids/179656-240-240?v=1775577147&width=240&height=240&aspect=true",
+      "descripcion": "Pan de molde integral"
+    }
+    
+]

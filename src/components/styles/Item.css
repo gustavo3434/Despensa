@@ -1,0 +1,29 @@
+#card {
+    height: 300px;
+}
+
+@media screen and (max-width: 1080px) {
+    #card {
+       height: 300px;
+    }
+ }
+ @media screen and (max-width: 851px) {
+    #card {
+       height: 350px;
+    }
+ }
+ @media screen and (max-width: 780px) {
+    #card {
+       height: 360px;
+    }
+ }
+ @media screen and (max-width: 767px) {
+    #card {
+       height: 490px;
+    }
+ }
+ @media screen and (max-width: 705px) {
+    #card {
+       height: 500px;
+    }
+ }
