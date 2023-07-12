@@ -7,7 +7,7 @@ const CardWidget = () => {
     //const {producInCarrito} = useContext(CartContext)
     
     return (
-        <Link to={"/"} className='btn' >
+        <Link to={"/carrito"} className='btn' >
             <img className='' src={cart} alt="LOGO CARRITO"  width={26} />
             <span className=' badge rounded-pill' style={{backgroundColor: 'red'}}>0</span>
         </Link>
