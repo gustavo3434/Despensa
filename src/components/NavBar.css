@@ -63,7 +63,13 @@
         grid-template-columns: auto 10% 41% 12%;
     }
 }
-
+@media screen and (max-width: 741px) {
+    #contenedor{
+        display: grid;
+        grid-template-areas: "uno dos tres cuatro";
+        grid-template-columns: auto 10% 41% 13%;
+    }
+}
 
 @media screen and (max-width: 520px) {
     #contenedor{
@@ -72,7 +78,7 @@
         "uno dos cuatro"
         "tres tres tres"
         ;
-        grid-template-columns: 70px auto auto;
+        grid-template-columns: 70px 30% 100px;
         grid-template-rows: auto;
     }
     .tres{
@@ -80,5 +86,15 @@
     }
     #contenedor .dos{
     margin-left: 0%;
+    }
+    #contenedor .cuatro{
+        margin-left: 14%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    #contenedor .cuatro{
+        margin-left: 14.7%;
     }
 }
