@@ -12,7 +12,7 @@ const Item = ({item}) => {
                 <div className="col-md-8">
                     <div className="card-body">
                         <h6 className="mt-4" style={{fontWeight: "bold"}}>${item.precio}</h6>
-                        <NavLink to={`/`} className="text-decoration-none text-dark"><h6 className="text-secondary">{item.nombre}</h6></NavLink>
+                        <NavLink to={`/`} className="text-decoration-none"><h6 style={{color: "#838383"}}>{item.nombre}</h6></NavLink>
                         <button type="button" class="btn position-absolute bottom-0 end-0" style={{backgroundColor:"#ea0000", marginBottom:"8%", marginRight:"6%"}}><img src={addcart} style={{width:"25px"}}   alt={"carrito"}/></button>
                     </div>
                 </div>

@@ -32,3 +32,53 @@
 .nav-item :hover {
     color: #0404b3;
 }
+
+#contenedor{
+    display: grid;
+    grid-template-areas: "uno dos tres cuatro";
+    grid-template-columns: auto 10% 41% 9%;
+}
+
+#contenedor .dos{
+    margin-left: -20%;
+}
+.uno{
+    grid-area: uno;
+}
+.dos{
+    grid-area: dos;
+}
+.tres{
+    grid-area: tres;
+}
+
+.cuatro{
+    grid-area: cuatro;
+}
+
+@media screen and (max-width: 978px) {
+    #contenedor{
+        display: grid;
+        grid-template-areas: "uno dos tres cuatro";
+        grid-template-columns: auto 10% 41% 12%;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+    #contenedor{
+        display: grid;
+        grid-template-areas: 
+        "uno dos cuatro"
+        "tres tres tres"
+        ;
+        grid-template-columns: 70px auto auto;
+        grid-template-rows: auto;
+    }
+    .tres{
+        margin-top: 1rem;
+    }
+    #contenedor .dos{
+    margin-left: 0%;
+    }
+}

@@ -7,9 +7,8 @@ const NavBar = () => {
     return (
         <div>
             <nav className="navbar fixed-top border-bottom bg-white">
-                <div className="container-fluid ">
-                    
-                    <div className="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <div className="container-fluid" id="contenedor">
+                    <div className="navbar-toggler uno" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <div className="btnNav">
                             <label for="btn-menu" className="lbl-menu">
                                 <span id="spn1"></span>
@@ -18,14 +17,14 @@ const NavBar = () => {
                             </label>
                         </div>
                     </div>
-                    <div style={{width:"10%", marginRight:"17%"}} >
+                    <div className="dos">
                         <Link className="navbar-brand" to={"/"} ><img src={logo} width={100} alt="LOGO" height={60} /> </Link>
                     </div>
-                    <form className="d-flex me-4" style={{width:"37%"}} role="search">
-                        <input style={{width:"100%"}}  className="form-control form-control-lg me-2 " type="search" placeholder="¿Que estas buscando?" aria-label="Search"/>
+                    <form className="d-flex me-4 tres" role="search">
+                        <input style={{width:"100%",color: "#a3a1a1",fontSize:"1rem"}}  className="form-control form-control-lg me-2" type="search" placeholder="¡Hola!¿Que estas buscando?" aria-label="Search"/>
                         <button className="btn" style={{backgroundColor: "#ea0000", color: "white"}} type="submit">Buscar</button>
                     </form>
-                    <div >
+                    <div className="cuatro" >
                         <CardWidget/>
                     </div>
                     
@@ -46,7 +45,7 @@ const NavBar = () => {
                                         <li><NavLink className="nav-link active ms-3" to={"/"}>Arroz</NavLink></li>
                                         <li><NavLink className="nav-link active ms-3" to={"/"}>Harinas</NavLink></li>
                                         <li><NavLink className="nav-link active ms-3" to={"/"}>Sal,aderezos y saborizantes</NavLink></li>
-                                        
+                                        <li><NavLink className="nav-link active ms-3" to={"/"}>Galletitas</NavLink></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item dropdown">
@@ -59,6 +58,7 @@ const NavBar = () => {
                                         <li><NavLink className="nav-link active ms-3" to={"/"}>Jugos</NavLink></li>
                                         <li><NavLink className="nav-link active ms-3" to={"/"}>Gaseosas</NavLink></li>
                                         <li><NavLink className="nav-link active ms-3" to={"/"}>Bebidas blancas</NavLink></li>
+                                        <li><NavLink className="nav-link active ms-3" to={"/"}>Vinos</NavLink></li>
                                         
                                     </ul>
                                 </li>
